@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deyvit Erick Torres Calixto - Portafolio de Ingeniería de Software e IA</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Fuente de Google Fonts para un look moderno -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Menú de Navegación -->
+    <header>
+        <div class="logo">Dev.AI</div>
+        <nav>
+            <a href="#sobre-mi">Sobre mí</a>
+            <a href="#skills">Habilidades</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#certificados">Certificados</a>
+            <a href="#contacto">Contacto</a>
+            <a href="https://github.com/Deyvithorres" target="_blank" class="nav-icon">GitHub</a>
+        </nav>
+    </header>
+
+    <!-- Sección de Bienvenida (Hero) -->
+    <section class="hero">
+        <div class="hero-content">
+            <!-- Insignia de Disponibilidad -->
+            <div class="availability-badge">
+                <span class="status-dot"></span> Disponible para pasantías y proyectos de IA
+            </div>
+
+            <h1>Hola, soy <span class="resaltado">Deyvit Erick Torres Calixto</span></h1>
+            <p>Estudiante de Ingeniería de Software e Inteligencia Artificial, enfocado en construir soluciones
+                inteligentes y escalables.</p>
+            <a href="#proyectos" class="btn">Ver Proyectos</a>
+        </div>
+    </section>
+
+    <!-- Nueva Sección: Presentación Profesional -->
+    <section id="presentacion" class="section bg-light">
+        <div class="presentacion-container">
+            <h2>Presentación Profesional</h2>
+            <div class="contenedor-imagen-multiple">
+                <img src="images/fotos-formales.jpg" alt="Vistas profesionales de Tu Nombre" class="img-multiple">
+            </div>
+            <p class="subtitulo-imagen">Diferentes ángulos de mi perfil profesional</p>
+        </div>
+    </section>
+
+    <!-- Sección Sobre Mí con Tarjeta de Presentación Formal -->
+    <section id="sobre-mi" class="section">
+        <h2>Sobre mí</h2>
+        <div class="about-container">
+            <!-- Tarjeta de Presentación / Fotografía Formal -->
+            <div class="profile-card">
+                <img src="images/foto-formal.jpg" alt="Foto de perfil formal" class="profile-img">
+                <div class="profile-info">
+                    <h3>Deyvit Erick Torres Calixto</h3>
+                    <p class="profile-role">Ingeniería de Software & IA</p>
+                </div>
+            </div>
+
+            <!-- Texto de Descripción -->
+            <div class="about-text">
+                <p>Apasionado por la tecnología, el desarrollo de software y cómo la Inteligencia Artificial puede
+                    transformar la forma en que resolvemos problemas complejos. Busco constantemente aprender nuevas
+                    herramientas y aplicarlas en proyectos reales, desde simulaciones 3D hasta sistemas de
+                    automatización industrial.</p>
+                <p>Me motiva crear código limpio, eficiente y soluciones escalables que unan la lógica de la
+                    programación con la innovación empresarial.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Habilidades / Tech Stack -->
+    <section id="skills" class="section bg-light">
+        <h2>Habilidades Técnicas</h2>
+        <div class="skills-grid">
+            <div class="skill-card">Python / PyTorch / TensorFlow</div>
+            <div class="skill-card">JavaScript / HTML / CSS</div>
+            <div class="skill-card">Git & GitHub</div>
+            <div class="skill-card">Bases de Datos (SQL / NoSQL)</div>
+            <div class="skill-card">Desarrollo Backend & APIs</div>
+            <div class="skill-card">Modelos de IA / Prompt Engineering</div>
+        </div>
+    </section>
+
+    <!-- Sección de Certificados y Logros (A futuro) -->
+    <section id="certificados" class="section">
+        <h2>Certificados y Logros</h2>
+        <div class="projects-grid"> <!-- Reutilizamos la misma cuadrícula para que tengan el mismo diseño -->
+
+            <!-- Certificado 1 (Ejemplo) -->
+            <div class="project-card">
+                <div class="cert-icon">🏆</div>
+                <h3>Especialización en Machine Learning</h3>
+                <p>Otorgado por [Institución / Plataforma] tras completar con éxito el programa avanzado de modelos
+                    predictivos y redes neuronales.</p>
+                <div class="tags">
+                    <span>Python</span> <span>Scikit-Learn</span> <span>2026</span>
+                </div>
+                <a href="URL_DEL_CERTIFICADO_EN_PDF_O_IMAGEN" target="_blank" class="link-proyecto">Ver Credencial</a>
+            </div>
+
+            <!-- Certificado 2 (Ejemplo) -->
+            <div class="project-card">
+                <div class="cert-icon">📜</div>
+                <h3>Introducción al Desarrollo Cloud</h3>
+                <p>Certificación obtenida por buenas prácticas en despliegue de aplicaciones y manejo de servidores
+                    virtuales.</p>
+                <div class="tags">
+                    <span>Cloud Computing</span> <span>Git</span> <span>2025</span>
+                </div>
+                <a href="URL_DEL_CERTIFICADO" target="_blank" class="link-proyecto">Ver Credencial</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Sección Proyectos -->
+    <section id="proyectos" class="section">
+        <h2>Mis Proyectos</h2>
+        <div class="projects-grid">
+
+            <!-- Proyecto 1: Juego 3D -->
+            <div class="project-card">
+                <img src="images/juego-3D.png" alt="Simulador de Taxi 3D" class="project-thumbnail">
+
+                <h3>Simulador de Taxi 3D</h3>
+                <p>Videojuego interactivo desarrollado en Python donde el usuario controla un taxi a través de una
+                    ciudad en 3D. Incluye lógica de colisiones, gestión de pasajeros, tráfico controlado por IA y
+                    soporte para mandos de juego.</p>
+                <div class="tags">
+                    <span>Python</span> <span>Ursina Engine</span> <span>Game Physics</span> <span>IA de Tráfico</span>
+                </div>
+                <a href="URL_DE_GITHUB_O_DEMO" target="_blank" class="link-proyecto">Ver Código en GitHub</a>
+            </div>
+
+            <!-- Proyecto 2: Automatización e Inventarios -->
+            <div class="project-card">
+                <img src="images/organizar-inventario.png" alt="Sistema de Automatización de Inventarios"
+                    class="project-thumbnail">
+
+                <h3>Sistema de Automatización de Inventarios</h3>
+                <p>Scripts en Python diseñados para la gestión de almacenes y tiendas. Permiten el registro estructurado
+                    de productos, control de entradas/salidas y visualización ordenada de datos en tiempo real.</p>
+                <div class="tags">
+                    <span>Python</span> <span>Estructuras de Datos</span> <span>Automatización</span>
+                </div>
+                <a href="URL_DE_GITHUB" target="_blank" class="link-proyecto">Ver Código en GitHub</a>
+            </div>
+
+            <!-- Proyecto 3: Conversor Industrial -->
+            <div class="project-card">
+                <img src="images/conversor-temperatura.png" alt="Conversor de Temperatura Industrial"
+                    class="project-thumbnail">
+
+                <h3>Conversor de Temperatura Industrial</h3>
+                <p>Algoritmo en Python desarrollado para el monitoreo y conversión de temperaturas de calderas
+                    (Fahrenheit a Celsius), aplicando lógica matemática precisa para entornos industriales.</p>
+                <div class="tags">
+                    <span>Python</span> <span>Algoritmos</span> <span>Lógica de Negocio</span>
+                </div>
+                <a href="URL_DE_GITHUB" target="_blank" class="link-proyecto">Ver Código en GitHub</a>
+            </div>
+
+            <!-- Proyecto 4: E-commerce Web -->
+            <div class="project-card">
+                <img src="images/pagina-institucional.jpg" alt="Plataforma E-commerce & Web Institucional"
+                    class="project-thumbnail">
+
+                <h3>Plataforma E-commerce & Web Institucional</h3>
+                <p>Desarrollo de sitios web interactivos tipo tienda online y páginas institucionales. Cuentan con menús
+                    dinámicos, formularios de contacto, integración de mapas de ubicación y diseño completamente
+                    adaptable (Responsive).</p>
+                <div class="tags">
+                    <span>HTML5</span> <span>CSS3</span> <span>JavaScript</span> <span>UI/UX</span>
+                </div>
+                <a href="URL_DE_GITHUB_O_DEMO" target="_blank" class="link-proyecto">Ver Proyecto en Vivo</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Sección de Contacto Mejorada -->
+    <section id="contacto" class="section bg-light">
+        <h2>Contacto Profesional</h2>
+        <p class="contacto-subtitulo">¿Tienes alguna propuesta, proyecto o deseas conectar conmigo? Elige tu vía
+            preferida:</p>
+
+        <div class="contacto-grid">
+
+            <!-- Opción 1: Enviar Correo -->
+            <div class="contacto-card">
+                <div class="contacto-icon">✉️</div>
+                <h3>Correo Electrónico</h3>
+                <p>Escríbeme directamente para consultas formales o propuestas laborales.</p>
+                <a href="mailto:erick18calixto@gmail.com" class="btn-contacto">Enviar Correo</a>
+            </div>
+
+            <!-- Opción 2: Mensaje de WhatsApp -->
+            <div class="contacto-card">
+                <div class="contacto-icon">💬</div>
+                <h3>WhatsApp</h3>
+                <p>¿Prefieres una comunicación más ágil? Contáctame al instante por chat.</p>
+                <!-- Reemplaza el número por tu código de país y número sin espacios ni símbolos, ej: 51999999999 -->
+                <a href="https://wa.me/51924721882?text=Hola,%20vi%20tu%20portafolio%20y%20me%20gustaría%20contactar contigo"
+                    target="_blank" class="btn-contacto whatsapp-btn">Enviar Mensaje</a>
+            </div>
+
+            <!-- Opción 3: Llamada Telefónica -->
+            <div class="contacto-card">
+                <div class="contacto-icon">📞</div>
+                <h3>Llamada Telefónica</h3>
+                <p>Disponible para entrevistas o conversaciones directas.</p>
+                <!-- Reemplaza el número respetando el formato internacional, ej: +51999999999 -->
+                <a href="tel:+51924721882" class="btn-contacto tel-btn">Llamar Ahora</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2026 Deyvit Erick Torres Calixto. Diseñado y construido con código.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
